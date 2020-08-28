@@ -1,0 +1,50 @@
+body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+form.registration-form {
+    display: table;
+}
+
+div.registration-form {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+#pings {
+
+}
+
+.ping {
+    background-color: #ddd;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    border: solid;
+}
+
+.myPing {
+    background-color: #afa;
+}
+
+
+video {
+    background: #ddd;
+    border: 1px solid #bbb;
+}

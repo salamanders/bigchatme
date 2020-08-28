@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Big Chat (for me!)</title>
+
+    <script defer src="/__/firebase/7.19.0/firebase-app.js"></script>
+    <script defer src="/__/firebase/7.19.0/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.19.0/firebase-firestore.js"></script>
+    <script defer src="/__/firebase/7.19.0/firebase-analytics.js"></script>
+    <script defer src="/__/firebase/init.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
+
+    <script src="https://www.gstatic.com/firebasejs/ui/4.6.1/firebase-ui-auth__en.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.6.1/firebase-ui-auth.css"/>
+
+    <script defer src="js/utils.js"></script>
+    <script defer src="js/main.js"></script>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<h1>Does anyone want to chat?</h1>
+
+<video id="video_main" autoplay></video>
+<button id="capture_button">Click to Start Camera</button>
+
+<div id="pings">
+
+</div>
+
+<dialog id="register_dialog">
+    <h3>What is your First Name, and which grade are you in?</h3>
+    <form action="" method="get" class="registration-form">
+        <div class="registration-form">
+            <label for="first">Your First Name:</label>
+            <input type="text" name="first" id="first" required>
+        </div>
+        <div class="registration-form">
+            <label for="grade">Your Grade:</label>
+            <select name="grade" id="grade">
+                <option value="K">Kinder</option>
+                <option value="1st">1st</option>
+                <option value="2nd">2nd</option>
+                <option value="3rd">3rd</option>
+                <option value="4th">4th</option>
+                <option value="5th">5th</option>
+            </select>
+        </div>
+        <div class="registration-form">
+            <input type="button" class="close" value="I am Here!">
+        </div>
+    </form>
+</dialog>
+
+</body>
+
+</html>
