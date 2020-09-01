@@ -14,7 +14,10 @@ Allow anyone to get into a room and everyone talks at once and it all just kinda
 # TODO
 
 * Refresh my visit
-
+* Everyone sees everyone (slowly)
+* Push-to-talk records your next comment
+* Store media in https://firebase.google.com/docs/storage/web/upload-files
+* todo: https://developer.mozilla.org/en-US/docs/Web/API/ImageCapture/takePhoto
 # Notes
 
 ## Pre-Existing Samples
